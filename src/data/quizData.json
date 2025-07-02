@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary purpose of primary treatment in wastewater processing?",
+    "options": [
+      "Remove dissolved organic matter",
+      "Remove settleable solids and floating materials",
+      "Disinfect the wastewater",
+      "Remove nutrients like nitrogen and phosphorus"
+    ],
+    "correctAnswer": "Remove settleable solids and floating materials",
+    "explanation": "Primary treatment focuses on physical processes to remove materials that will settle or float."
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is NOT a common disinfectant used in wastewater treatment?",
+    "options": ["Chlorine", "Ultraviolet light", "Ozone", "Hydrogen peroxide"],
+    "correctAnswer": "Hydrogen peroxide",
+    "explanation": "While hydrogen peroxide can disinfect, it's not commonly used in standard wastewater treatment plants."
+  },
+  {
+    "id": 3,
+    "question": "What is the typical hydraulic retention time in an activated sludge process?",
+    "options": ["1-2 hours", "4-8 hours", "12-24 hours", "2-4 days"],
+    "correctAnswer": "4-8 hours",
+    "explanation": "The activated sludge process typically operates with a hydraulic retention time of 4-8 hours."
+  }
+]
