@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# React Quiz Application - Complete Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+A feature-rich quiz application built with React that handles multiple-choice questions with explanations, provides immediate feedback, and displays comprehensive results.
+![Quiz Application Screenshot](https://i.postimg.cc/HL2Fy6HC/Whats-App-Image-2025-07-11-at-16-33-18-8821cc0e.jpg)
+![Quiz Application Screenshot](https://i.postimg.cc/DZwHd1y4/Whats-App-Image-2025-07-11-at-16-33-41-686da6b5.jpg)
+![Quiz Application Screenshot](https://i.postimg.cc/nzS5dMCR/Whats-App-Image-2025-07-11-at-16-34-14-a98dd9e5.jpg)
+![Quiz Application Screenshot](https://i.postimg.cc/pdxgrgwZ/Whats-App-Image-2025-07-11-at-16-34-30-63551a90.jpg)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Component Documentation](#component-documentation)
+5. [Data Structure](#data-structure)
+6. [Styling](#styling)
+7. [Customization](#customization)
+8. [Dependencies](#dependencies)
+9. [Available Scripts](#available-scripts)
+10. [Troubleshooting](#troubleshooting)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ✔️ Multiple-choice questions with single-select answers
+- ✅ Instant visual feedback (correct/incorrect indicators)
+- 📝 Detailed explanations for each question
+- 📊 Comprehensive results summary with percentage score
+- 🔄 Option to restart quiz and try again
+- 📱 Fully responsive design
 
-### `npm test`
+### Core Functionality
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Dynamic question navigation
+- Score tracking
+- Answer validation
+- Results calculation
 
-### `npm run build`
+### User Experience
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Progress indicators
+- Visual feedback (✓/✗)
+- Answer explanations
+- Responsive design
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Quiz Flow
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Presents questions sequentially
+2. Locks selection after answering
+3. Shows correct answer immediately
+4. Displays explanation
+5. Automatically progresses after delay
+6. Shows comprehensive results at end
 
-### `npm run eject`
+### Requirements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js ≥ v14.x
+- npm ≥ 6.x or yarn ≥ 1.22.x
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+# Clone repository
+git clone https://github.com/your-repo/quiz-app.git
+cd quiz-app
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Install dependencies
+npm install
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Start development server
+npm start
+```
