@@ -62,7 +62,7 @@ A feature-rich quiz application built with React that handles multiple-choice qu
 
 ```bash
 # Clone repository
-git clone https://github.com/hafizmuhammadaslam10/quiz-react-app
+git clone https://github.com/hafizmuhammadaslam10/quiz-react-app.git
 cd quiz-react-app
 
 # Install dependencies
